@@ -1,0 +1,36 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  magin:0;
+}
+.color{
+  color:olivedrab;
+}
+.flexible-container{
+  display:flex;
+  margin-bottom:100px;
+}
+.half-width{
+  width:50%;
+  
+}
+.half-width-image{
+  width:80%;
+}
+#lekha{
+  padding:100px 50px;
+  text-align:justify;
+}
+.link-button{
+  text-decoration:none;
+  color:#333;
+  font-weight:700;
+  background-image:linear-gradient(yellow,orange);
+  padding:10px 50px;
+  border-bottom:2px solid;
+  box-shadow:10px 10px 8px 10px gray;
+
+}
+#lekha2{
+  padding:70px 30px;
+  text-align:justify;
+}
