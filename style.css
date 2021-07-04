@@ -102,7 +102,7 @@ body{
 .images{
   display:flex;
   margin-bottom:50px;
-  margin-left:175px;
+  margin-left:125px;
   background-image:url(images/dream-bg.png);
   background-repeat:no-repeat;
   background-position:right;
