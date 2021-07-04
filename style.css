@@ -1,13 +1,15 @@
 body{
   font-family: 'Roboto', sans-serif;
-  magin:0;
+  margin:0;
 }
 .color{
-  color:olivedrab;
+  color:blue;
+  weight:700;
 }
 .flexible-container{
   display:flex;
   margin-bottom:100px;
+
 }
 .half-width{
   width:50%;
@@ -33,4 +35,45 @@ body{
 #lekha2{
   padding:70px 30px;
   text-align:justify;
+}
+.dhora{
+  padding:10px 30px;
+  
+  
+
+}
+#first{
+  border-bottom:5px solid;
+  border-left:5px solid;
+  border-image:linear-gradient(yellow,orange);
+  border-image-slice:1;
+  box-shadow:10px 10px 40px gray;
+  margin-right:50px;
+}
+#second{
+  border-bottom:5px solid;
+  border-left:5px solid;
+  border-image:linear-gradient(yellow,orange);
+  border-image-slice:1;
+  box-shadow:10px 10px 40px gray;
+  margin-right:50px;
+}
+.have-in-us{
+  background-image:url(images/exp-bg.png);
+  background-repeat:no-repeat;
+}
+#bg{
+  background-image:url(images/exp-bg.png);
+  background-repeat:no-repeat;
+  
+}
+#bg2{
+ background-image:url(images/dream-bg.png);
+ background-repeat:no-repeat;
+ background-position:right;
+ 
+}
+.footer{
+  font-weight:700;
+  text-align:center;
 }
