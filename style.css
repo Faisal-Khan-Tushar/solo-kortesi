@@ -4,7 +4,7 @@ body{
 }
 .color{
   color:blue;
-  weight:700;
+  font-weight:700;
 }
 .flexible-container{
   display:flex;
@@ -49,6 +49,8 @@ body{
   border-image-slice:1;
   box-shadow:10px 10px 40px gray;
   margin-right:50px;
+  padding:20px;
+  text-align:justify;
 }
 #second{
   border-bottom:5px solid;
@@ -57,6 +59,8 @@ body{
   border-image-slice:1;
   box-shadow:10px 10px 40px gray;
   margin-right:50px;
+  padding:20px;
+  text-align:justify;
 }
 .have-in-us{
   background-image:url(images/exp-bg.png);
@@ -73,7 +77,50 @@ body{
  background-position:right;
  
 }
-.footer{
-  font-weight:700;
+.opinion{
+  margin:30px 400px;
+  text-align:justify;
+  background-image:linear-gradient(#E0EAFC,#CFDEF3);
+  padding:10px 10px 50px;
+  box-shadow:10px 10px 10px gray;
+  border-left:5px solid;
+  border-image:linear-gradient(orange,tomato);
+  border-image-slice:1;
+ 
+  
+  
+
+}
+#h2{
   text-align:center;
 }
+.picture{
+  background-image:url(images/dream-bg.png);
+  background-repeat:no-repeat;
+  background-position:right;
+}
+.images{
+  display:flex;
+  margin-bottom:50px;
+  margin-left:175px;
+  background-image:url(images/dream-bg.png);
+  background-repeat:no-repeat;
+  background-position:right;
+
+  
+  
+}
+
+.thik-ho{
+  height:500px;
+  width:auto;
+}
+.footer{
+  text-align:center;
+  
+}
+.footer-image{
+  height:30px;
+  margin:10px 20px;
+}
+
